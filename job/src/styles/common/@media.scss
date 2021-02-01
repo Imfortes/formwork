@@ -1,0 +1,42 @@
+
+
+@media screen and (min-width: 1198px){
+  .nav-item {
+    width: 25% !important;
+  }
+  .info-type {
+    width: 95% !important;
+  }
+  .info-salary-from {
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1198px) {
+
+}
+
+@media screen and (max-width: 1398px) {
+
+}
+
+@media screen and (max-width: 1198px) {
+  .info-salary-from {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .info-type {
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .nav-item {}
+}

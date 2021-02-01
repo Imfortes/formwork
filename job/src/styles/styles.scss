@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "normalize.scss";
+
+@import "common/global";
+@import "common/@media";
+
+@import "includes/header";
+@import "includes/info";
+@import "includes/register";
+@import "includes/tariff";
+@import "includes/payments";
+
+
+body {
+}
+
+.nav-link, .nav-item {
+  display: flex;
+  width: 100%;
+  font-size: .9rem;
+}
+

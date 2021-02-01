@@ -1,0 +1,100 @@
+
+
+.choose-tariff a span,
+.choose-tariff a b {
+  width: 100% !important;
+}
+
+
+
+#pills-tariff .nav-item a,
+#pills-tariff .nav-item h2  {
+  height: 75px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pills-tariff .nav-link,
+#pills-tariff .nav-pills {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+.tariff-group {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.tariff-small {
+  color: #848484;
+  font-family: 'Raleway', sans-serif;
+  line-height: 20px;
+  font-size: .8rem;
+}
+
+#pills-tariff .nav-item:hover {
+  opacity: 0.8;
+}
+
+#pills-tariff .tab-content .nav-item:hover {
+  opacity: 1;
+}
+
+#pills-tariff .choose-tariff {
+  @media screen and (max-width: 1198px) {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+  }
+}
+
+#pills-tariff .choose-tariff .nav-item {
+  width: 90% !important;
+  @media screen and (max-width: 1198px) {
+    width: 50% !important;
+  }
+}
+
+#pills-tariff b {
+  font-size: 1.3rem;
+}
+
+.tariff-content ul li.nav-item {
+  width: 90% !important;
+  @media screen and (max-width: 1198px) {
+    width: 100% !important;
+  }
+}
+
+.choose-tariff a b {
+  @media screen and (max-width: 576px){
+    font-size: 1.1rem !important;
+  }
+}
+
+#pills-tariff .tab-content h2 {
+  width: 100%;
+  padding: 0 25px;
+}
+
+#pills-tariff .tab-content ul li {
+  width: 100% !important;
+}
+
+#pills-tariff button {
+  width: 240px;
+  height: 45px;
+  background-color: #6db746;
+  color: #ffffff;
+}

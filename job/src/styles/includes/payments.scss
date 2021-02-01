@@ -1,0 +1,39 @@
+#pills-payment select {
+  margin: 20px 0px;
+}
+
+.payment-type label {
+  margin: 0;
+
+  @media screen and (min-width: 1198px){
+    margin-left: 30px !important;
+  }
+}
+
+#pills-payment .pay-checkbox,
+#pills-payment select {
+  @media screen and (max-width: 1198px){
+    margin: 10px 0 !important;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.choose-plan {
+  position: relative;
+}
+.choose-plan:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -1px;
+  border-bottom: 42px solid #402484;
+  border-left: 0px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  width: 17px;
+
+  @media screen and (max-width: 576px) {
+    display: none;
+  }
+}

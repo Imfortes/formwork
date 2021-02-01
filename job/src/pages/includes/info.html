@@ -1,0 +1,249 @@
+<form class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 tab-pane fade show active pane-for-step" id="pills-info" role="tabpanel" aria-labelledby="info-tab" >
+
+    <div class="row d-flex justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto; margin-top: 30px;">
+        <div class="col-xs-10 col-12 p-0">
+            <p style="font-size: 0.9rem; line-height: 20px; max-width: 580px">
+                Введите основную информацию, по этим параметрам будущий сотрудник сможет
+                быстро отыскать ваше объявление.
+            </p>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto; margin-top: 20px;">
+        <div class="col-12 p-0">
+
+            <div class="form-item form-type-textfield form-item-title">
+                <label for="edit-title">Название вакансии <span class="form-required form-label"
+                                                                title="Это поле обязательно для заполнения.">*</span></label>
+                <input class="col-12 form-text required form-control" type="text" id="edit-title" name="title" value=""
+                       size="auto" maxlength="128" required/>
+                <div class="invalid-feedback">
+                    Please select a valid state. ([а-яА-Яa-zA-z){1,23})
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+        <div class="col-12 p-0">
+            <div class="form-item form-type-select form-item-speciality">
+                <label for="edit-speciality">Специализация <span class="form-required"
+                                                                 title="Это поле обязательно для заполнения.">*</span></label>
+                <select class="col-12 custom-select form-select required" id="edit-speciality" name="speciality" required>
+                    <option value="950">Автомобильный бизнес</option>
+                    <option value="968">Продажи</option>
+                    <option value="977">Юристы</option>
+                    <option value="976">Управление персоналом, тренинги</option>
+                    <option value="975">Туризм, гостиницы, рестораны</option>
+                    <option value="974">Транспорт, логистика</option>
+                    <option value="973">Строительство, недвижимость</option>
+                    <option value="972">Страхование</option>
+                    <option value="971">Спортивные клубы, фитнес, салоны красоты</option>
+                    <option value="970">Рабочий персонал</option>
+                    <option value="969">Производство и сельское хозяйство</option>
+                    <option value="967">Начало карьеры, студенты</option>
+                    <option value="953">Административный персонал</option>
+                    <option value="958">Домашний персонал</option>
+                    <option value="954">Банки, инвестиции, лизинг</option>
+                    <option value="952">Безопасность</option>
+                    <option value="951">Бухгалтерия, управленческий учет, финансы предприятия</option>
+                    <option value="955">Высший менеджмент</option>
+                    <option value="956">Государственная служба, некоммерческие организации</option>
+                    <option value="957">Добыча сырья</option>
+                    <option value="959">Закупки</option>
+                    <option value="966">Наука, образование</option>
+                    <option value="960">Инсталляция и сервис</option>
+                    <option value="961">Информационные технологии, интернет, телеком</option>
+                    <option value="962">Искусство, развлечения, масс-медиа</option>
+                    <option value="963">Консультирование</option>
+                    <option value="964">Маркетинг, реклама, PR</option>
+                    <option value="965">Медицина, фармацевтика</option>
+                </select>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-between col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+        <div class="col-xs-12 col-xl-6 p-0 ">
+            <div class="form-item form-type-select form-item-type-of-employment">
+                <label for="edit-type-of-employment">Тип занятости </label>
+                <select class="col-12 custom-select form-select info-type" id="edit-type-of-employment" name="type_of_employment">
+                    <option value="1" selected="selected">Полная занятость</option>
+                    <option value="2">Частичная занятость</option>
+                    <option value="3">Проектная работа</option>
+                    <option value="4">Волонтерство</option>
+                    <option value="5">Стажировка</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-xl-6 p-0" style="">
+            <div class="form-item form-type-select form-item-work-schedule">
+                <label for="edit-work-schedule">График работ </label>
+                <select class="col-12 custom-select form-select" id="edit-work-schedule" name="work_schedule">
+                    <option value="1" selected="selected">Полный день</option>
+                    <option value="2">Сменный график</option>
+                    <option value="3">Гибкий график</option>
+                    <option value="4">Удаленная работа</option>
+                    <option value="5">Вахтовый метод</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center flex-md-wrap col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+
+            <div class="col-xs-12 col-xl-6 info-salary-from" style="padding-left: 0;">
+                <div class="form-item form-type-textfield form-item-money">
+                    <label for="edit-money">Заработная плата - от <span class="form-required"
+                                                                        title="Это поле обязательно для заполнения.">*</span></label>
+                    <input class="col-12 form-text required form-control" type="text" id="edit-money" name="money" value=""
+                           size="auto"
+                           maxlength="9"
+                        required
+                    />
+                </div>
+            </div>
+            <div class="col-xs-6 col-xl-6" style="padding-left: 0; padding-right: 0;">
+                <div class="form-item form-type-textfield form-item-money-before">
+                    <label for="edit-money-before">Заработная плата - до <span class="form-required"
+                                                                               title="Это поле обязательно для заполнения.">*</span></label>
+                    <input class="col-12 form-text required form-control" type="text" id="edit-money-before"
+                           name="money_before" value=""
+                           size="auto" maxlength="9" required/>
+                </div>
+            </div>
+
+    </div>
+
+    <div class="row d-flex-justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+        <div class="col-xs-12 col-lg-12 p-0" style="padding-left: 7px; padding-right: 5px;">
+            <div class="form-item form-type-select form-item-experience-vakancy">
+                <label for="edit-experience-vakancy">Опыт работы </label>
+                <select class="col-12 custom-select form-select info-select-exp" id="edit-experience-vakancy" name="experience_vakancy">
+                    <option value="no">Нет опыта</option>
+                    <option value="1" selected="selected">От 1 года</option>
+                    <option value="2">От 2 лет</option>
+                    <option value="3">От 3 лет</option>
+                    <option value="4">От 4-7 лет</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex-justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+        <div class="col-xl-12 col-12 p-0">
+            <div class="form-item form-type-textarea form-item-charge">
+                <label for="edit-charge">Обязанности <span class="form-required"
+                                                           title="Это поле обязательно для заполнения.">*</span></label>
+                <div class=" resizable">
+                    <textarea class="col-12 form-textarea resizable required form-control"
+                              minlength="50" id="edit-charge" name="charge"
+                              cols="60" rows="5" required></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex-justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+        <div class="col-xl-12 col-12 p-0">
+            <div class="form-item form-type-textarea form-item-requirements">
+                <label for="edit-requirements">Требования <span class="form-required"
+                                                                title="Это поле обязательно для заполнения.">*</span></label>
+                <div class="form-textarea-wrapper resizable"><textarea class="col-12 form-textarea required form-control"
+                                                                       minlength="50" id="edit-requirements"
+                                                                       name="requirements" cols="60"
+                                                                       rows="5" required></textarea></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row d-flex-justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+        <div class="col-xl-12 col-12 p-0">
+            <div class="form-item form-type-textarea form-item-conditions">
+                <label for="edit-conditions">Условия <span class="form-required"
+                                                           title="Это поле обязательно для заполнения.">*</span></label>
+                <div class="form-textarea-wrapper resizable"><textarea class="col-12 form-textarea required form-control"
+                                                                       minlength="50" id="edit-conditions"
+                                                                       name="conditions" cols="60" rows="5" required></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+        <div class="col-xl-12 col-12 p-0">
+            <div class="form-item form-type-select form-item-drivers-license">
+                <label for="edit-drivers-license">Водительское удостоверение </label>
+                <select class="col-12 custom-select form-select" id="edit-drivers-license" name="drivers_license">
+                    <option value="Не требуется">Не требуется</option>
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
+                    <option value="4">D</option>
+                    <option value="5">E</option>
+                    <option value="6">BE</option>
+                    <option value="7">CE</option>
+                    <option value="8">DE</option>
+                    <option value="9">TM</option>
+                    <option value="10">TB</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+        <div class="form-item p-0">
+            <h3 style="font-size: 1.6rem; margin-bottom: 20px; line-height: 30px; color: #27374e; font-family: 'Raleway', sans-serif">Месторасположение</h3>
+            <p>Где находиться место работы?</p>
+        </div>
+    </div>
+
+    <div class="row d-flex justify-content-center col-xs-10 col-md-8 col-lg-6" style="margin: 0 auto;">
+        <div class="city-region-wrap col-12 p-0">
+            <div class="row">
+                <div class="col-xs-12 col-xl-6 col-lg-6 city">
+                    <div class="form-item form-type-textfield form-item-city">
+                        <label class="form-label" for="edit-city">Город <span class="form-required"
+                                                                              title="Это поле обязательно для заполнения.">*</span></label>
+                        <input class="col-12 form-text required form-control" type="text" id="edit-city" name="city"
+                               value=""
+                               size="auto" maxlength="128" required/>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-12 region">
+                    <div class="form-item form-type-textfield form-item-region">
+                        <label class="form-label" for="edit-region">Регион <span class="form-required"
+                                                                                 title="Это поле обязательно для заполнения.">*</span></label>
+                        <input class="col-12 form-text required form-control" type="text" id="edit-region" name="region"
+                               value=""
+                               size="auto" maxlength="128" required/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row d-flex justify-content-center col-xs-10 col-md-12 p-0">
+            <div class="col-xl-12 col-12 metro-wrap p-0">
+                <div class="form-item form-type-textfield form-item-metro">
+                    <label for="edit-metro">Метро </label>
+                    <input class="col-12 form-text form-control" type="text" id="edit-metro" name="metro" value="" size="auto"
+                           maxlength="128"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row d-flex-justify-content-center-align-items-center col-6" style="margin: 0 auto; padding-bottom: 50px">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <button type="submit" style="padding: 10px 20px;" id="nextStepRegister" onclick="validVacancyTitle();">Следующий шаг. Регистрация</button>
+        </div>
+    </div>
+
+
+</form>
+

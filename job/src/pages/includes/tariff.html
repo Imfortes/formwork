@@ -1,0 +1,76 @@
+<form class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 tab-pane fade pane-for-step" id="pills-tariff"
+      role="tabpanel"
+      aria-labelledby="register-tab">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 d-flex flex-row"
+             style="margin: 0 auto; margin-top: 20px; margin-bottom: 25px;">
+            <div class="col-12">
+                <div class="text-center" style="font-size: 0.9rem;">Выберите сайты, на которых будет размещено ваше
+                    объявление,или используйте тарифы со скидками
+                    и специальными предложениями!
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 d-flex flex-column flex-xl-row" style="margin: 0 auto;">
+            <div class="col-xs-12 col-xl-4">
+                @@include('./tariff-tabs.html')
+            </div>
+
+
+            <div class="col-xs-12 col-xl-8 tariff-content tab-content">
+
+                @@include('./tariff-calculator.html')
+
+            </div>
+
+
+            <div class="form-group tab-pane fade" id="tariff-nowMonth" aria-labelledby="tariff-nowMonth">
+
+                @@include('./tariff-nowMonth.html')
+
+            </div>
+
+            <div class="form-group tab-pane fade" id="tariff-region" aria-labelledby="tariff-nowMonth">
+
+                @@include('./tariff-region.html')
+
+            </div>
+
+            <div class="form-group tab-pane fade" id="tariff-all" aria-labelledby="tariff-nowMonth">
+
+                @@include('./tariff-all.html')
+
+            </div>
+
+            <div class="form-group tab-pane fade" id="tariff-optimal" aria-labelledby="tariff-nowMonth">
+
+                @@include('./tariff-optimal.html')
+
+            </div>
+
+            <div class="form-group tab-pane fade" id="tariff-effective" aria-labelledby="tariff-nowMonth">
+
+                @@include('./tariff-effective.html')
+
+            </div>
+
+            <div class="form-group tab-pane fade" id="tariff-profi" aria-labelledby="tariff-nowMonth">
+
+                @@include('./tariff-profi.html')
+
+            </div>
+
+            <div class="form-group tab-pane fade" id="tariff-free" aria-labelledby="tariff-nowMonth">
+
+                @@include('./tariff-free.html')
+
+            </div>
+
+        </div>
+    </div>
+</form>
