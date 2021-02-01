@@ -5,7 +5,8 @@ let ready = (callback) => {
 
 
 ready(() => {
-    tabs()
+    //tabs()
+    //showTab()
     validateForm()
     isCheck('reg')
     isCheck('payType')
@@ -68,20 +69,7 @@ function nextStep(n) {
 
 
 
-function tabs() {
-    var triggerTabList = [].slice.call(document.querySelectorAll('#myTab a'))
 
-    triggerTabList.forEach(function (triggerEl) {
-        var tabTrigger = new bootstrap.Tab(triggerEl)
-        triggerTabList[0].style.backgroundColor = '#6db744'
-        triggerTabList[0].style.color = '#ffffff'
-
-        triggerEl.addEventListener('click', function (event) {
-            event.preventDefault()
-            tabTrigger.show()
-        })
-    })
-}
 
 function isCheck(name) {
     return document.querySelector('input[name="' + name + '"]:checked')

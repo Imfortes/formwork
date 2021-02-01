@@ -98,3 +98,41 @@
   background-color: #6db746;
   color: #ffffff;
 }
+
+.block-triangle {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-right: 20px solid #6db746;
+    border-bottom: 40px solid transparent;
+
+    @media screen and (max-width: 1198px){
+      display: none;
+    }
+  }
+}
+
+.block-triangle-now-month {
+  &:after {
+    content: '';
+    position: absolute;
+    top: 75px;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid transparent;
+    border-right: 20px solid #683c7f;
+    border-bottom: 40px solid transparent;
+
+    @media screen and (max-width: 1198px){
+      display: none;
+    }
+  }
+}

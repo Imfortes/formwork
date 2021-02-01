@@ -17,11 +17,11 @@ function validateForm() {
     validVacancy = vacancyPattern.test(document.querySelector('#edit-title').value)
     validPhone = phonePattern.test(document.querySelector('#edit-user-phone').value)
     validEmail = emailPattern.test(document.querySelector('#edit-user-email').value)
-    validSalaryFrom = salaryOfPattern.test(document.querySelector('#edit-money').value.toNumber())
+    validSalaryFrom = salaryOfPattern.test(document.querySelector('#edit-money').value)
 
 
     if (!validVacancy || validVacancy.length < 1) {
-        alert('vacansy wrong')
+
         allOk = false;
     }
     if (!validPhone) {
