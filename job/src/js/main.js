@@ -6,7 +6,7 @@ let ready = (callback) => {
 
 ready(() => {
     //tabs()
-    //showTab()
+
     validateForm()
     isCheck('reg')
     isCheck('payType')

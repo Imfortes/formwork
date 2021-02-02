@@ -2,3 +2,17 @@ span.form-required {
   color: red;
 }
 
+fieldset .active {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+.nav-item .active {
+  background-color: #333333;
+}
+
+#myTab .nav-link .active,
+#myTab .nav .active{
+  background-color: #6db746 !important;
+}
